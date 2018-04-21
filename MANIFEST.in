@@ -1,0 +1,6 @@
+# MANIFEST.in only affects sdist, not bdist
+
+# Include gui folder outside template
+recursive-include gui *.txt *.py
+
+#prune examples/sample?/build
