@@ -3,12 +3,10 @@
 import sys
 import argparse
 
-def main(argv=None):
+
+def main(argv=sys.argv[1:]):
     """Example of exeutable console script.
     """
-    if argv is None:
-        argv = sys.argv[1:]
-
     parser = argparse.ArgumentParser(description="Process some input argument.")
     parser.add_argument("file1", metavar="file_1", type=str, nargs=1,
                         help="Path to file 1")
@@ -27,4 +25,4 @@ def main(argv=None):
 
 
 if __name__ == "__main__":
-    main(sys.argv)
+    main()

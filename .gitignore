@@ -1,0 +1,5 @@
+# ignore build folder
+build
+
+# Ignore any folder with prefix .
+.**
