@@ -24,7 +24,7 @@ setup(
 
     # metadata for upload to PyP
     author="Chiong Lai",
-    author_email="chiong.lai@gmail.com.com",
+    author_email="chiong.lai@gmail.com",
     description="This is a template for Python setuptools",
     license="???",
     keywords="template",
